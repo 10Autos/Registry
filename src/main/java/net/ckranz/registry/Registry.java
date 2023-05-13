@@ -56,7 +56,7 @@ public class Registry {
                 result = br.readLine();
             }
             if(result != null) {
-                String[] parts = br.readLine().trim().split("\\s+");
+                String[] parts = result.trim().split("\\s+");
                 return parts[parts.length - 1];
             } else {
                 throw new MissingKeyException("The key \"" + key + "\" doesn't exist");

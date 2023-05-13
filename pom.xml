@@ -6,7 +6,7 @@
 
     <groupId>net.ckranz</groupId>
     <artifactId>Registry</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <name>Registry</name>
     <description>An API to easily manipulate the Windows registry</description>
 
